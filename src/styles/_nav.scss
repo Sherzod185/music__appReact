@@ -1,0 +1,61 @@
+nav{
+  padding-top: 10px;
+img{
+  width: 130px;
+}
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button{
+    border: none;
+    background:transparent;
+    border: 2px solid #bcbcbc;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s linear;
+    svg{
+      margin-left: 3px;
+    }
+    &:hover{
+      background-color: #25252b;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+       &:active{
+      background-color: transparent;
+      color: black;
+      transform: translateY( 2px);
+    }
+  }
+}
+.btnn{
+  background: #28262d;
+  color: #fff;
+}
+.kunTun{
+display: flex;
+align-items: center;
+img{
+  width: 40px;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-right: 13px;
+}
+}
+@media screen  and   (max-width:700px) {
+  nav{
+    justify-content: space-between;
+    padding:0 20px ;
+    margin-bottom: 10px;
+    img{
+      width: 110px;
+    }
+  }
+}
+@media screen  and   (max-width:500px) {
+  nav{
+    margin-bottom: 30px;
+  }
+}

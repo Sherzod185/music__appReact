@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: rgb(14, 14, 55);
+}
+body {
+  font-family: "SF Pro Display", sans-serif;
+ 
+}
+.App{
+  padding-top: 10px;
+ background-color: #F1F1F1;
+ height: 100vh;
+ 
+}
+.darkApp{
+background-color: #0b0018;
+.library{
+background-color: #0b0018;
+}
+*{
+  color: #F1F1F1
+}
+}
+@import "song";
+@import "playerSong";
+@import "library";
+@import "nav";

@@ -1,0 +1,40 @@
+.player {
+  display: flex;
+  min-height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.time-control{
+  display: flex;
+  width: 50%;
+  input{
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+  p{
+    padding: 1rem;
+  }
+}
+.player-control{
+  display: flex;justify-content: space-between;align-items: center;padding: 1rem;
+  width: 30%;
+  svg{
+    cursor: pointer;
+    transition: all 0.2s linear;
+  &:hover{
+    transform: translateX(2px);
+  }
+    &:active{
+    transform: translateX(-2px);
+  }
+  }
+}
+@media screen and (max-width:968px) {
+ .time-control{
+  width: 95%;
+ }
+ .player-control{
+  width: 55%;
+ }
+}
