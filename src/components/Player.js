@@ -40,6 +40,7 @@ const Player = ({
     } else {
       audioRef.current.play();
       setIsPlaying(!isPlaying);
+      
     }
   };
 

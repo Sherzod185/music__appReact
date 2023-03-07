@@ -26,7 +26,7 @@ function App() {
       duration: duration,
     });
   };
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={`App ${darkMode ? "darkApp" : ""}`}>
       <Nav
