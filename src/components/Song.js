@@ -6,7 +6,7 @@ const Song = ({ currentsongs }) => {
   setInterval(() => {
     count += 1;
     setCount(count);
-  }, 300);
+  }, 600);
   useEffect(() => {
     rotate.current.style.border = `3px solid ${
       colors[Math.floor(Math.random() * colors.length)]
